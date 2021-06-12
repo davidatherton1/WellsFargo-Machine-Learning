@@ -2,6 +2,8 @@
 
 ## Method
 
+![This is a alt text.](/flowchart.png "This is a sample image.")
+
 First we mapped all of the labels of the categorical feature XC to numbers (A→1,B→2,C→3,D→4,E→5). This was done not only to investigate the correlation between XC and the other numerical features, but also to simplify the processes of feature selection and delivering inputs to our model.
 
 We then sought out to eliminate any dependent features. After calculating the correlation matrix of the 31 feature variables, we found that no two features had a correlation coefficient below -0.1 or exceeding 0.1. Thus concluded that the 31 features were all independent with one another.
